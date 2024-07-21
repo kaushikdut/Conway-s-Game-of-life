@@ -1,5 +1,13 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #939393;
+  padding: 10px 0;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -7,6 +15,29 @@
   pointer-events: none;
 }
 
+button {
+  margin: 10px 10px 0;
+  border-radius: 10px;
+  width: 120px;
+  height: 42px;
+  border: 0;
+}
+h1 {
+  width: fit-content;
+  background-color: rgba(255, 255, 0, 0.782);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

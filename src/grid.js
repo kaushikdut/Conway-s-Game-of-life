@@ -5,6 +5,7 @@ const Grid = ({ grid, onClick }) => {
     <div
       style={{
         display: "grid",
+        justifyContent: "center",
         gridTemplateColumns: `repeat(${grid[0].length}, 20px)`,
         gap: "1px",
       }}
